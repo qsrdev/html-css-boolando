@@ -60,6 +60,8 @@ header {
   gap: 20px;
 }
 
+/* CARD */
+
 .card-30 {
   width: 30%;
   position: relative;
@@ -67,7 +69,57 @@ header {
   border: 1px solid black;
 }
 
+.item-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.favorite {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  top: 10px;
+  right: 0;
+}
+
+.like-container {
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+}
+
+.discount {
+  position: absolute;
+  bottom: 110px;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+
+.sustainable {
+  position: absolute;
+  bottom: 110px;
+  left: 50px;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  padding: 5px 10px;
+}
+
 /* Utilities */
 .pad-top20 {
   padding: 20px 0;
+}
+
+.font-tag {
+  font-size: 12px;
 }
