@@ -10,7 +10,32 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 /* Header */
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(255, 98, 0);
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.nav-categories {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.logo {
+  width: 120px;
+}
 
 /* COMMON */
 /* Layout */
