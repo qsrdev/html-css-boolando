@@ -138,6 +138,42 @@ header {
   display: inline-block;
 }
 
+/* footer */
+footer {
+  width: 100%;
+  background-color: #202020;
+  color: #ffffff;
+  height: 100px;
+}
+
+.nav-footer {
+  display: flex;
+  gap: 20px;
+  font-size: 1rem;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.nav-social {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.footer-container {
+  padding-top: 20px;
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .col50 {
+  width: 50%;
+} */
+
 /* Utilities */
 .pad-top20 {
   padding: 20px 0;
