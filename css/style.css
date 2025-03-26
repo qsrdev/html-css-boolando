@@ -21,16 +21,18 @@ header {
   height: 70px;
   width: 100%;
   background-color: rgb(255, 98, 0);
-  justify-content: space-between;
-  align-items: center;
   z-index: 1;
   position: sticky;
   top: 0;
 }
 
 .header-container {
-  max-width: 100%;
+  padding-top: 10px;
+  width: 80%;
+  max-width: 1300px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .nav-categories {
@@ -38,10 +40,24 @@ header {
   gap: 15px;
   list-style: none;
   font-weight: bold;
+  width: 30%;
+}
+
+.nav-checkout {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  width: 30%;
+  justify-content: flex-end;
 }
 
 .logo {
   width: 120px;
+  width: 30%;
+}
+
+.col-30 {
+  width: 30%;
 }
 
 /* COMMON */
