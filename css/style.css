@@ -82,7 +82,7 @@ header {
   width: 30%;
   position: relative;
   /* debug */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .img-container {
